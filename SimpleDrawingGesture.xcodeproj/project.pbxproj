@@ -1,0 +1,415 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		592A7A8C1DC8353A00BDCED4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 592A7A8B1DC8353A00BDCED4 /* AppDelegate.swift */; };
+		592A7A8E1DC8353A00BDCED4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 592A7A8D1DC8353A00BDCED4 /* ViewController.swift */; };
+		592A7A911DC8353A00BDCED4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 592A7A8F1DC8353A00BDCED4 /* Main.storyboard */; };
+		592A7A931DC8353A00BDCED4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 592A7A921DC8353A00BDCED4 /* Assets.xcassets */; };
+		592A7A961DC8353A00BDCED4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 592A7A941DC8353A00BDCED4 /* LaunchScreen.storyboard */; };
+		592A7AA11DC8353A00BDCED4 /* SimpleDrawingGestureTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 592A7AA01DC8353A00BDCED4 /* SimpleDrawingGestureTests.swift */; };
+		592A7AAC1DC8357E00BDCED4 /* ShapeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 592A7AAB1DC8357E00BDCED4 /* ShapeView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		592A7A9D1DC8353A00BDCED4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 592A7A801DC8353A00BDCED4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 592A7A871DC8353A00BDCED4;
+			remoteInfo = SimpleDrawingGesture;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		592A7A881DC8353A00BDCED4 /* SimpleDrawingGesture.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimpleDrawingGesture.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		592A7A8B1DC8353A00BDCED4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		592A7A8D1DC8353A00BDCED4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		592A7A901DC8353A00BDCED4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		592A7A921DC8353A00BDCED4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		592A7A951DC8353A00BDCED4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		592A7A971DC8353A00BDCED4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		592A7A9C1DC8353A00BDCED4 /* SimpleDrawingGestureTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SimpleDrawingGestureTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		592A7AA01DC8353A00BDCED4 /* SimpleDrawingGestureTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleDrawingGestureTests.swift; sourceTree = "<group>"; };
+		592A7AA21DC8353A00BDCED4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		592A7AAB1DC8357E00BDCED4 /* ShapeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShapeView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		592A7A851DC8353A00BDCED4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		592A7A991DC8353A00BDCED4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		592A7A7F1DC8353A00BDCED4 = {
+			isa = PBXGroup;
+			children = (
+				592A7A8A1DC8353A00BDCED4 /* SimpleDrawingGesture */,
+				592A7A9F1DC8353A00BDCED4 /* SimpleDrawingGestureTests */,
+				592A7A891DC8353A00BDCED4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		592A7A891DC8353A00BDCED4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				592A7A881DC8353A00BDCED4 /* SimpleDrawingGesture.app */,
+				592A7A9C1DC8353A00BDCED4 /* SimpleDrawingGestureTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		592A7A8A1DC8353A00BDCED4 /* SimpleDrawingGesture */ = {
+			isa = PBXGroup;
+			children = (
+				592A7AAB1DC8357E00BDCED4 /* ShapeView.swift */,
+				592A7A8B1DC8353A00BDCED4 /* AppDelegate.swift */,
+				592A7A8D1DC8353A00BDCED4 /* ViewController.swift */,
+				592A7A8F1DC8353A00BDCED4 /* Main.storyboard */,
+				592A7A921DC8353A00BDCED4 /* Assets.xcassets */,
+				592A7A941DC8353A00BDCED4 /* LaunchScreen.storyboard */,
+				592A7A971DC8353A00BDCED4 /* Info.plist */,
+			);
+			path = SimpleDrawingGesture;
+			sourceTree = "<group>";
+		};
+		592A7A9F1DC8353A00BDCED4 /* SimpleDrawingGestureTests */ = {
+			isa = PBXGroup;
+			children = (
+				592A7AA01DC8353A00BDCED4 /* SimpleDrawingGestureTests.swift */,
+				592A7AA21DC8353A00BDCED4 /* Info.plist */,
+			);
+			path = SimpleDrawingGestureTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		592A7A871DC8353A00BDCED4 /* SimpleDrawingGesture */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 592A7AA51DC8353A00BDCED4 /* Build configuration list for PBXNativeTarget "SimpleDrawingGesture" */;
+			buildPhases = (
+				592A7A841DC8353A00BDCED4 /* Sources */,
+				592A7A851DC8353A00BDCED4 /* Frameworks */,
+				592A7A861DC8353A00BDCED4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SimpleDrawingGesture;
+			productName = SimpleDrawingGesture;
+			productReference = 592A7A881DC8353A00BDCED4 /* SimpleDrawingGesture.app */;
+			productType = "com.apple.product-type.application";
+		};
+		592A7A9B1DC8353A00BDCED4 /* SimpleDrawingGestureTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 592A7AA81DC8353A00BDCED4 /* Build configuration list for PBXNativeTarget "SimpleDrawingGestureTests" */;
+			buildPhases = (
+				592A7A981DC8353A00BDCED4 /* Sources */,
+				592A7A991DC8353A00BDCED4 /* Frameworks */,
+				592A7A9A1DC8353A00BDCED4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				592A7A9E1DC8353A00BDCED4 /* PBXTargetDependency */,
+			);
+			name = SimpleDrawingGestureTests;
+			productName = SimpleDrawingGestureTests;
+			productReference = 592A7A9C1DC8353A00BDCED4 /* SimpleDrawingGestureTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		592A7A801DC8353A00BDCED4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = DaesubKim;
+				TargetAttributes = {
+					592A7A871DC8353A00BDCED4 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = NE9YAC47HN;
+					};
+					592A7A9B1DC8353A00BDCED4 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = NE9YAC47HN;
+						TestTargetID = 592A7A871DC8353A00BDCED4;
+					};
+				};
+			};
+			buildConfigurationList = 592A7A831DC8353A00BDCED4 /* Build configuration list for PBXProject "SimpleDrawingGesture" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 592A7A7F1DC8353A00BDCED4;
+			productRefGroup = 592A7A891DC8353A00BDCED4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				592A7A871DC8353A00BDCED4 /* SimpleDrawingGesture */,
+				592A7A9B1DC8353A00BDCED4 /* SimpleDrawingGestureTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		592A7A861DC8353A00BDCED4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				592A7A961DC8353A00BDCED4 /* LaunchScreen.storyboard in Resources */,
+				592A7A931DC8353A00BDCED4 /* Assets.xcassets in Resources */,
+				592A7A911DC8353A00BDCED4 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		592A7A9A1DC8353A00BDCED4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		592A7A841DC8353A00BDCED4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				592A7AAC1DC8357E00BDCED4 /* ShapeView.swift in Sources */,
+				592A7A8E1DC8353A00BDCED4 /* ViewController.swift in Sources */,
+				592A7A8C1DC8353A00BDCED4 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		592A7A981DC8353A00BDCED4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				592A7AA11DC8353A00BDCED4 /* SimpleDrawingGestureTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		592A7A9E1DC8353A00BDCED4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 592A7A871DC8353A00BDCED4 /* SimpleDrawingGesture */;
+			targetProxy = 592A7A9D1DC8353A00BDCED4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		592A7A8F1DC8353A00BDCED4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				592A7A901DC8353A00BDCED4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		592A7A941DC8353A00BDCED4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				592A7A951DC8353A00BDCED4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		592A7AA31DC8353A00BDCED4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		592A7AA41DC8353A00BDCED4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		592A7AA61DC8353A00BDCED4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = SimpleDrawingGesture/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.daesub.SimpleDrawingGesture;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		592A7AA71DC8353A00BDCED4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = SimpleDrawingGesture/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.daesub.SimpleDrawingGesture;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		592A7AA91DC8353A00BDCED4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SimpleDrawingGestureTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.daesub.SimpleDrawingGestureTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SimpleDrawingGesture.app/SimpleDrawingGesture";
+			};
+			name = Debug;
+		};
+		592A7AAA1DC8353A00BDCED4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SimpleDrawingGestureTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.daesub.SimpleDrawingGestureTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SimpleDrawingGesture.app/SimpleDrawingGesture";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		592A7A831DC8353A00BDCED4 /* Build configuration list for PBXProject "SimpleDrawingGesture" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				592A7AA31DC8353A00BDCED4 /* Debug */,
+				592A7AA41DC8353A00BDCED4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		592A7AA51DC8353A00BDCED4 /* Build configuration list for PBXNativeTarget "SimpleDrawingGesture" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				592A7AA61DC8353A00BDCED4 /* Debug */,
+				592A7AA71DC8353A00BDCED4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		592A7AA81DC8353A00BDCED4 /* Build configuration list for PBXNativeTarget "SimpleDrawingGestureTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				592A7AA91DC8353A00BDCED4 /* Debug */,
+				592A7AAA1DC8353A00BDCED4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 592A7A801DC8353A00BDCED4 /* Project object */;
+}
